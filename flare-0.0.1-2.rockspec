@@ -1,8 +1,8 @@
 package = "flare"
-version = "0.0.1-1"
+version = "0.0.1-2"
 
 source = {
-    url = "git+https://github.com/HeroEyad/Flare.git",
+    url = "https://github.com/HeroEyad/Flare.git",
     tag = "v0.0.1"
 }
 
@@ -28,7 +28,6 @@ build = {
         ["flare.core.basic"] = "core/basic.lua",
         ["flare.core.gamestate"] = "core/gamestate.lua",
         ["flare.core.object"] = "core/object.lua",
-        ["flare.core.signal"] = "core/signal.lua",
         ["flare.graphics.camera"] = "graphics/camera.lua",
         ["flare.graphics.shader"] = "graphics/shader.lua",
         ["flare.graphics.sprite"] = "graphics/sprite.lua",
